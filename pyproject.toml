@@ -1,0 +1,17 @@
+[project]
+name = "pythonrag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Stephane Biehler Hertzog", email = "biehler@s2i-evolution.eu" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+pythonrag = "pythonrag:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
